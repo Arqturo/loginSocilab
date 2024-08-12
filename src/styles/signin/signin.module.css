@@ -1,0 +1,136 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 730px;
+    background-color: #27477d;
+}
+.form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #dbf2f9;
+      width: 500px;
+      padding: 100px;
+      gap: 30px;
+      border-radius: 20px;
+}
+.titleIniciarSesion{
+  font-size: xx-large;
+  font-weight: 800;
+  color: #293048;
+}
+.label{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.input{
+      border-radius: 12px;
+      border: 1px solid #9cb4d3;
+      
+}
+.input:focus{
+    outline: none;        
+    box-shadow: none;
+    border: 3px solid #27477d;
+}
+.icon{
+  vertical-align: middle;
+  font-size: 35px;
+  color: #27477d;
+}
+.linkOlvidastePassword{
+  color: #27477d;
+}
+.linkOlvidastePassword:hover{
+  text-decoration: underline;
+}
+.btnIngresar{
+  padding: 10px 30px;
+  border-radius: 12px;
+  color: white;
+  background-color: #27477d;
+  box-shadow: 2px 0 2px 0 rgba(20, 20, 20, 0.3);
+}
+.btnIngresar:hover{
+      background-color: #385e9e;
+}
+
+.socialContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.spanGoogle{
+  color: #27477d;
+}
+.iconGoogle{
+  font-size: 25px;
+}
+.authGoogle{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 2px solid #27477d;
+
+  border-radius: 12px;
+}
+
+.authGoogle:hover{
+  border: 3px solid #27477d;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .form{
+      width: 500px;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+
+  .form{
+      text-align: center;
+      padding: 40px;
+      width: 470px;
+  }
+
+
+}
+@media only screen and (max-width: 600px) {
+
+  .form{
+      width: 440px;
+  }
+  
+
+}
+@media only screen and (max-width: 480px) {
+ 
+  .form{
+      max-width: 400px;
+      margin: 10px;
+      padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 430px) {
+ 
+  .form{
+      width: 360px;
+      margin: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+ 
+  .form{
+      max-width: 350px;
+      margin: 15px;
+  }
+}

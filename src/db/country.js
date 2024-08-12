@@ -1,4 +1,4 @@
- export const countries = [
+export const countries = [
     { value: 'Argentina', label: 'Argentina', flag: 'https://flagpedia.net/data/flags/icon/72x54/ar.png' },
     { value: 'Bolivia', label: 'Bolivia', flag: 'https://flagpedia.net/data/flags/icon/72x54/bo.png' },
     { value: 'Brasil', label: 'Brasil', flag: 'https://flagpedia.net/data/flags/icon/72x54/br.png' },
